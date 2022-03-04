@@ -2,9 +2,7 @@
   "hooks": {
     "after:bump": "yarn run build"
   },
-  "npm": {
-    "publish": false
-  },
+  "npm": false,
   "github": {
     "release": true,
     "assets": ["output/*"]
