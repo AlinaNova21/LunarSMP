@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "after:bump": "yarn run build"
+  },
+  "npm": {
+    "publish": false
+  },
+  "github": {
+    "release": true,
+    "assets": ["output/*"]
+  }
+}

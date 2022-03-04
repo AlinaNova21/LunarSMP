@@ -1,0 +1,19 @@
+{
+  "name": "LunarSMP",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "repository": "https://github.com/AlinaNova21/LunarSMP",
+  "author": "Alina Shumann <ashumann13@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node src/app.js",
+    "release": "release-it"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9"
+  },
+  "devDependencies": {
+    "release-it": "^14.12.5"
+  }
+}
