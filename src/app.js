@@ -25,8 +25,8 @@ serverList.forEach(f => serverZip.addLocalFile(f))
 
 await fs.mkdir('output', { recursive: true }).catch(() => { })
 
-await fs.writeFile(`output/mods-client-${pkg.version}.txt`, clientList.map(f => basename(f)).join('\n'))
-await fs.writeFile(`output/mods-server-${pkg.version}.txt`, serverList.map(f => basename(f)).join('\n'))
+await fs.writeFile(`output/mods-client.txt`, clientList.map(f => basename(f)).join('\n'))
+await fs.writeFile(`output/mods-server.txt`, serverList.map(f => basename(f)).join('\n'))
 
-clientZip.writeZip(`output/mods-client-${pkg.version}.zip`)
-serverZip.writeZip(`output/mods-server-${pkg.version}.zip`)
+clientZip.writeZip(`output/mods-client.zip`)
+serverZip.writeZip(`output/mods-server.zip`)
