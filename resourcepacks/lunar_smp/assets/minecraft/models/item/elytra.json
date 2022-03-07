@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/elytra"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "minecraft:item/broken_elytra"
+    },
+    {
+      "predicate": {
+        "name": "Parrot Wings"
+      },
+      "model": "custom:item/elytra_parrot"
+    },
+    {
+      "predicate": {
+        "name": "Parrot Wings",
+        "broken": 1
+      },
+      "model": "custom:item/broken_elytra_parrot"
+    }
+  ]
+}

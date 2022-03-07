@@ -1,0 +1,37 @@
+{
+	"sonic.use": {
+		"sounds": [
+			{
+				"name": "tardis:custom/sonic/use",
+				"stream": true,
+				"preload": true
+			}]
+	},
+	"tardis.interior": {
+		"sounds": [
+			{
+				"name": "tardis:custom/tardis/interior",
+				"stream": true,
+				"preload": true
+			}
+		]
+	},
+	"tardis.travel": {
+		"sounds": [
+			{
+				"name": "tardis:custom/tardis/travel",
+				"stream": true,
+				"preload": true
+			}
+		]
+	},
+	"tardis.cloister_bell": {
+		"sounds": [
+			{
+				"name": "tardis:custom/tardis/cloister_bell",
+				"stream": true,
+				"preload": true
+			}
+		]
+	}
+}
