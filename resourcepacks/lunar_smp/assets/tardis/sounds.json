@@ -1,10 +1,12 @@
 {
 	"sonic.use": {
+		"subtitle": "Sonic Screwdriver",
 		"sounds": [
 			{
 				"name": "tardis:custom/sonic/use",
-				"stream": true,
-				"preload": true
+				"stream": false,
+				"preload": true,
+				"volume": 0.3
 			}]
 	},
 	"tardis.interior": {
@@ -12,24 +14,27 @@
 			{
 				"name": "tardis:custom/tardis/interior",
 				"stream": true,
-				"preload": true
+				"preload": true,
+				"volume": 0.3
 			}
 		]
 	},
 	"tardis.travel": {
+		"subtitle": "Tardis Materialization",
 		"sounds": [
 			{
 				"name": "tardis:custom/tardis/travel",
-				"stream": true,
+				"stream": false,
 				"preload": true
 			}
 		]
 	},
 	"tardis.cloister_bell": {
+		"subtitle": "Cloister Bell",
 		"sounds": [
 			{
 				"name": "tardis:custom/tardis/cloister_bell",
-				"stream": true,
+				"stream": false,
 				"preload": true
 			}
 		]
