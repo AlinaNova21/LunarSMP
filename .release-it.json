@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "after:bump": "yarn run build"
+    "after:bump": "yarn run build && bash bundle_resources.sh"
   },
   "npm": {
     "publish": false
