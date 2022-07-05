@@ -1,7 +1,7 @@
 {
   "name": "LunarSMP",
   "type": "module",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "src/app.js",
   "repository": "https://github.com/AlinaNova21/LunarSMP",
   "author": "Alina Shumann <ashumann13@gmail.com>",
