@@ -6,7 +6,7 @@
     "publish": false
   },
   "github": {
-    "update": true,
+    "update": false,
     "release": true,
     "assets": ["output/*"]
   }
